@@ -16,4 +16,6 @@ void *queue_list_dequeue(queue_list_t *queue);
 
 void *queue_list_peek(queue_list_t *queue);
 
+int queue_list_size(queue_list_t *queue);
+
 void queue_list_destroy(queue_list_t *queue);
